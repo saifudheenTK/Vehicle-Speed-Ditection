@@ -11,3 +11,8 @@ The process begins with video input. YOLOv10 detects vehicles in each frame. Mov
 4.Calculates speed.
 5.Displays speed on video.
 
+## 🚗 Vehicle Speed Detection App
+
+This app detects vehicle speeds using YOLO and displays real-time tracking.
+
+![Demo](https://github.com/saifudheen-ai/vehicle-speed-detection/blob/main/screen-capture.gif?raw=true)
