@@ -2,5 +2,8 @@
 
 This app detects vehicle speeds using YOLO and displays real-time tracking.
 
-![Vehicle Speed Detection](https://github.com/saifudheen-ai/vehicle-speed-detection/blob/main/screen-capture.gif?raw=true)](https://github.com/saifudheen-ai/vehicle-speed-detection/blob/main/screen-capture.gif)
+## 🚗 Vehicle Speed Detection - Demo
+
+![Speed Detection Demo](https://github.com/saifudheenTK/Vehicle-Speed-Ditection/blob/main/vehicle%20speed%20estimation/screen-capture%20(1)%20(online-video-cutter.com).gif?raw=true)
+
 
