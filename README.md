@@ -43,6 +43,7 @@ This project is a real-time vehicle speed detection web application built with *
 
 ## 📷 Example Screenshot
 
-![Vehicle-Speed-Detection](https://github.com/user-attachments/assets/9b3d7e5d-97d1-440b-9fcf-4425ecab5531)
+![Vehicle-Speed-Detection](https://github.com/user-attachments/assets/ef682896-e598-4bee-a11d-a2a9c2817bc2)
+
 
 
