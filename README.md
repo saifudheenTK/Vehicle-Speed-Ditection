@@ -14,32 +14,35 @@ This project is a real-time vehicle speed detection web application built with *
 
 ## 📁 Project Structure
 
-```bash
+
 ├── yolotrack1.py          # Main Streamlit app
 ├── speed.py               # Speed estimation logic
 ├── yolov10n.pt            # YOLOv10n pretrained weights (place in same directory)
 ├── requirements.txt       # Dependencies
 
 
-📸 Input Modes
-Video Upload: Choose any .mp4, .avi, or .mov file.
+## 🛠️ Technologies Used
 
-Webcam: Works only in local environments. Click the “Start Webcam” button.
+### 👁️ Computer Vision
+- **YOLOv10n (Ultralytics):** Lightweight object detection model used to detect and track vehicles like cars and buses.
+- **OpenCV:** Used for image processing, drawing annotations, and handling video frame operations.
 
-⚙️ How Speed Estimation Works
-Detects vehicles using YOLOv10
+### 🧠 AI/ML
+- **Object Tracking:** Persistent object IDs for tracking motion across frames to estimate speed.
+- **Speed Estimation Logic:** Custom Python logic based on movement across a virtual region.
 
-Tracks their position frame by frame
+### 🌐 Web Framework
+- **Streamlit:** Interactive web interface for running the app in the browser. Supports file uploads, webcam input, and real-time display of annotated frames.
 
-Calculates speed when they cross a virtual line
+### 🐍 Programming & Libraries
+- **Python 3.8+**
+- **NumPy:** Efficient numerical operations for distance and speed calculations.
+- **Ultralytics Library:** Provides easy-to-use access to YOLO models.
 
-Displays speed on the frame (in pixels/second converted to km/h)
 
-📌 Dependencies
-streamlit
 
-opencv-python
+## 📷 Example Screenshot
 
-ultralytics
+![Vehicle-Speed-Detection](https://github.com/user-attachments/assets/9b3d7e5d-97d1-440b-9fcf-4425ecab5531)
 
-numpy
+
